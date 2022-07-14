@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #c9b5ab;
+  font-family: "PT Serif", serif;
+  color: #222;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622;
+}
+
+nav ol li {
+  list-style-type: none;
+}
+
+a {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #8f2440;
+}
+
+a:hover {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3f1622;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.harvest {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote p strong {
+  font-weight: normal;
+}
+
+blockquote footer {
+  font-size: .8rem;
+}
