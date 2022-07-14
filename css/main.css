@@ -8,14 +8,14 @@ html {
 
 body {
   background-color: #c9b5ab;
-  font-family: "PT Serif", serif;
   color: #222;
+  font-family: "PT Serif", serif;
   line-height: 1.5;
 }
 
 h1, h2, h3 {
-  font-family: "PT Sans", sans-serif;
   color: #3f1622;
+  font-family: "PT Sans", sans-serif;
 }
 
 nav ol li {
@@ -23,17 +23,17 @@ nav ol li {
 }
 
 a {
+  color: #8f2440;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
   text-decoration: none;
-  color: #8f2440;
 }
 
 a:hover {
+  color: #3f1622;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  text-decoration: none;
-  color: #3f1622;
+  text-decoration: underline;
 }
 
 img {
@@ -60,4 +60,22 @@ blockquote p strong {
 
 blockquote footer {
   font-size: .8rem;
+}
+
+h2 + ol {
+  list-style-type: lower-greek;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+aside h2 + ul {
+  font-size: .8rem;
+  list-style-type: circle;
+}
+
+footer small a{
+  font-family: 'PT Serif', serif;
+  font-weight: 100;
 }
