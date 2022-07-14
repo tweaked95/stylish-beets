@@ -15,7 +15,12 @@ body {
 
 h1, h2, h3 {
   color: #3f1622;
+  font-style: normal;
   font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 nav ol li {
@@ -25,6 +30,7 @@ nav ol li {
 a {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
   font-weight: bold;
   text-decoration: none;
 }
@@ -77,5 +83,6 @@ aside h2 + ul {
 
 footer small a {
   font-family: "PT Serif", serif;
+  font-size: .8rem;
   font-weight: 100;
 }
